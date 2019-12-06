@@ -20,6 +20,7 @@ Jinja2==2.10.3
 jmespath==0.9.4
 joblib==0.14.0
 jsonschema==3.2.0
+matplotlib
 MarkupSafe==1.1.1
 more-itertools==8.0.1
 numpy==1.17.4
