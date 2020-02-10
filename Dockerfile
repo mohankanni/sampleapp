@@ -3,7 +3,7 @@ FROM python:3.7
 
 MAINTAINER Mohan Kanni "vinay.k@fluentgrid.com"
 
-COPY ./app /app
+COPY . /app
 
 WORKDIR /app
 
@@ -20,6 +20,6 @@ WORKDIR /app
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["/app/app.py"]
+CMD ["/app.py"]
 
 
